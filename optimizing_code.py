@@ -25,7 +25,6 @@ print('Duration: {} seconds'.format(time.time() - start))
 
 
 # good approaches
-
 start = time.time()
 
 total_price =  (gift_costs[gift_costs < 25]).sum() * 1.08
